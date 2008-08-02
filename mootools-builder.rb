@@ -39,11 +39,6 @@ module MooTools
         @builder.save BUILD_PATH
       end
       
-      private
-      def `(cmd)
-        Kernel.`(cmd) #`
-      end
-      
     end
   end
 end
