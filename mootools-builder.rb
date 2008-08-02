@@ -44,7 +44,7 @@ module MooTools
         Kernel.`(cmd) #`
       end
       
-    end    
+    end
   end
 end
 
