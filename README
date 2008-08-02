@@ -1,0 +1,9 @@
+This does:
+
+Use git to checkout the latest version of mootools.
+
+Build it.
+
+Move the javascript file to a downloads folder.
+
+Cron job to do all this periodically.
