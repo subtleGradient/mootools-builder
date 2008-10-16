@@ -6,7 +6,7 @@ module MooTools
     # GIT_URL     = ENV['MT_GIT_URL'      ] || 'git@github.com:mootools/mootools-core.git'
     GIT_URL       = ENV['MT_GIT_URL'      ] || 'git://github.com/mootools/mootools-core.git'
     CHECKOUT_PATH = ENV['MT_CHECKOUT_PATH'] || File.expand_path('~/git/mootools-core')
-    DOWNLOAD_PATH = ENV['MT_DOWNLOAD_PATH'] || File.expand_path('~/httpdocs/downloads')
+    DOWNLOAD_PATH = ENV['MT_DOWNLOAD_PATH'] || File.expand_path('~/httpdocs/private-downloads')
     MASTER_NAME   = ENV['MT_MASTER_NAME'  ] || 'mootools-core-edge.js'
     BUILD_PATH    = ENV['MT_BUILD_PATH'   ] || DOWNLOAD_PATH + '/' + MASTER_NAME
     
